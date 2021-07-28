@@ -4,3 +4,17 @@
 #about {
     margin-top: 10rem;
 }
+#twitterIcon, #githubIcon {
+    margin-top: 4px;
+}
+#about {
+    line-height: 200%;
+}
+.card {
+    margin: 1rem;
+}
+.card-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
