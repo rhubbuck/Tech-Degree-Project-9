@@ -1,6 +1,4 @@
-.nav {
-    margin-right: 5rem;
-}
+
 #twitterIcon, #githubIcon {
     margin-top: 4px;
 }
@@ -82,5 +80,33 @@ main {
   }
   #resume-header {
       text-align: center;
+  }
+  #resume:hover {
+    cursor: pointer;
+  }
+  @media (min-width: 768px) {
+    .nav {
+        margin-right: 5rem;
+    }
+  }
+  @media (max-width: 768px) {
+      main {
+          margin: 2rem 3rem;
+          padding: 1.5rem;
+      }
+      .nav {
+          flex-wrap: nowrap;
+          font-size: 14px;
+      }
+      svg {
+          min-width: 40px;
+          margin-left: -25px;
+      }
+      #twitter-link, #github-link {
+          margin-left: -12px;
+      }
+      #contact {
+          padding: 0;
+      }
   }
   
